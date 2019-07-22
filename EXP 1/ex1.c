@@ -12,8 +12,8 @@ int main()
 	printf("The string is %s",arr);
 	
 	//while(i<10)
-//{
-	for(c = 'A'; c <= 'Z'; ++c)
+
+	for(c = 'A'||'a'; c <= 'Z'||'z'; ++c)
 	{
 		if(c == arr[i])
 		{
@@ -32,7 +32,7 @@ i=0;
 				}
 			}
 			
-//}
+
 	
 	return 0;
 	
